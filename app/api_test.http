@@ -1,0 +1,12 @@
+### Call Token
+POST http://127.0.0.1:8000/api/call-token/1
+Content-Type: application/json
+X-CSRF-TOKEN: your-csrf-token
+
+{
+}
+
+###
+
+### Get Current Token
+GET http://127.0.0.1:8000/api/current-token
